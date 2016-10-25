@@ -12,10 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navigationC : UINavigationController! ;
+    var tabBarC : UITabBarController! ;
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds) ;
+        window?.backgroundColor = UIColor.white ;
+        
+        tabBarC = UITabBarController() ;
+        
+        tabBarC.setViewControllers([ViewController() , BViewController() , CViewController()], animated: true) ;
+        
+        navigationC = UINavigationController(rootViewController: ViewController()) ;
+        window?.rootViewController = navigationC ;
+        self.window?.makeKeyAndVisible() ;
+       
+        
         return true
     }
 

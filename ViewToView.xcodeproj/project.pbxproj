@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4A0C701DBB6B57009BB0C0 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4A0C6F1DBB6B57009BB0C0 /* img.png */; };
+		AE4A0C721DBDB7CB009BB0C0 /* C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4A0C711DBDB7CB009BB0C0 /* C.jpg */; };
+		AE4A0C741DBDB7E6009BB0C0 /* D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4A0C731DBDB7E6009BB0C0 /* D.jpg */; };
+		AE4A0C761DBDBA78009BB0C0 /* bbb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4A0C751DBDBA78009BB0C0 /* bbb.jpg */; };
+		AECCB6971DBDF28F00BC5B00 /* TTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCB6961DBDF28F00BC5B00 /* TTViewController.swift */; };
 		AEE7C30C1DB8712F008E8855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C30B1DB8712F008E8855 /* AppDelegate.swift */; };
 		AEE7C30E1DB8712F008E8855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C30D1DB8712F008E8855 /* ViewController.swift */; };
 		AEE7C3111DB8712F008E8855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C30F1DB8712F008E8855 /* Main.storyboard */; };
 		AEE7C3131DB8712F008E8855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C3121DB8712F008E8855 /* Assets.xcassets */; };
 		AEE7C3161DB8712F008E8855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C3141DB8712F008E8855 /* LaunchScreen.storyboard */; };
+		AEE7C3241DB896B3008E8855 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C3231DB896B3008E8855 /* BViewController.swift */; };
+		AEE7C3261DB896C0008E8855 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C3251DB896C0008E8855 /* CViewController.swift */; };
+		AEE7C3281DB896CF008E8855 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C3271DB896CF008E8855 /* DViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE4A0C6F1DBB6B57009BB0C0 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		AE4A0C711DBDB7CB009BB0C0 /* C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C.jpg; sourceTree = "<group>"; };
+		AE4A0C731DBDB7E6009BB0C0 /* D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D.jpg; sourceTree = "<group>"; };
+		AE4A0C751DBDBA78009BB0C0 /* bbb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bbb.jpg; sourceTree = "<group>"; };
+		AECCB6961DBDF28F00BC5B00 /* TTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTViewController.swift; sourceTree = "<group>"; };
 		AEE7C3081DB8712F008E8855 /* ViewToView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewToView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE7C30B1DB8712F008E8855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE7C30D1DB8712F008E8855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,9 @@
 		AEE7C3121DB8712F008E8855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE7C3151DB8712F008E8855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE7C3171DB8712F008E8855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE7C3231DB896B3008E8855 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		AEE7C3251DB896C0008E8855 /* CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		AEE7C3271DB896CF008E8855 /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +75,15 @@
 				AEE7C30F1DB8712F008E8855 /* Main.storyboard */,
 				AEE7C3121DB8712F008E8855 /* Assets.xcassets */,
 				AEE7C3141DB8712F008E8855 /* LaunchScreen.storyboard */,
+				AE4A0C6F1DBB6B57009BB0C0 /* img.png */,
 				AEE7C3171DB8712F008E8855 /* Info.plist */,
+				AEE7C3231DB896B3008E8855 /* BViewController.swift */,
+				AEE7C3251DB896C0008E8855 /* CViewController.swift */,
+				AEE7C3271DB896CF008E8855 /* DViewController.swift */,
+				AE4A0C711DBDB7CB009BB0C0 /* C.jpg */,
+				AE4A0C751DBDBA78009BB0C0 /* bbb.jpg */,
+				AE4A0C731DBDB7E6009BB0C0 /* D.jpg */,
+				AECCB6961DBDF28F00BC5B00 /* TTViewController.swift */,
 			);
 			path = ViewToView;
 			sourceTree = "<group>";
@@ -125,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE7C3161DB8712F008E8855 /* LaunchScreen.storyboard in Resources */,
+				AE4A0C721DBDB7CB009BB0C0 /* C.jpg in Resources */,
+				AE4A0C761DBDBA78009BB0C0 /* bbb.jpg in Resources */,
 				AEE7C3131DB8712F008E8855 /* Assets.xcassets in Resources */,
+				AE4A0C741DBDB7E6009BB0C0 /* D.jpg in Resources */,
+				AE4A0C701DBB6B57009BB0C0 /* img.png in Resources */,
 				AEE7C3111DB8712F008E8855 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE7C30E1DB8712F008E8855 /* ViewController.swift in Sources */,
+				AEE7C3281DB896CF008E8855 /* DViewController.swift in Sources */,
+				AECCB6971DBDF28F00BC5B00 /* TTViewController.swift in Sources */,
+				AEE7C3241DB896B3008E8855 /* BViewController.swift in Sources */,
+				AEE7C3261DB896C0008E8855 /* CViewController.swift in Sources */,
 				AEE7C30C1DB8712F008E8855 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +332,7 @@
 				AEE7C31C1DB8712F008E8855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
